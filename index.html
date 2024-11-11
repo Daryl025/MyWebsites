@@ -4,38 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Home Page</title>
-    <link href="Home.css" rel="stylesheet" >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Joan&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
         aside{
             text-align: center;
             font-size: x-large;
-            margin-top: 5px;
+            margin-top: 40px;
         }
-        /*img {
-            max-width: 650px;  added max to width for more responsiveness
-            margin-left: 10px;  }   */
-        
-            h1{
-             display: flex;
-             width: 100%;
-             background-color: yellow;
-             text-align: center;
-             margin: 0;
-             flex: 1; 
-             justify-content: center;
-            }
+        img {
+            max-width: 650px; /* added max to width for more responsiveness*/
+            margin-left: 10px;  
+        }
+        h1 {
+            display:flex;
+            justify-content: center;
+        }
         figure{
             float:  left;    /* for figure to cover the left part of th screen*/
             margin: 0 10px 10px 0;
                
         }
-       .container1{
+       .container{
         display: flex;      
         align-items: flex-start;   /* aligns elements at the top of the container*/
-        flex-wrap: wrap;    /* allows elements to wrap onto new line if needed*/
+        flex-wrap: wrap;    /* allows elements to wrap onto nw line if needed*/
         margin-top: 0px;
         font-size: large;
        }
@@ -44,20 +35,17 @@
   <body>
     <!--Header to contain the title of the webpage-->
     <header>
-        <h1 class="jersey-20-regular">Welcome to My Website. <a href="../LearnMore/index.html" class="Button"> Learn More</a></h1>
+        <h1>Welcome to My Website.</h1>
     </header>
     
     <!--Section to group the content of the webpage. i.e image,paragraph, and list-->
-   <div class="container">
-   <div class="left-section">
+    <section>
         <figure>
-            <img src="/Assets/technology.png" alt="painted boy seated and surrounded by technological decives">
+            <img src="Assets/technology.png" alt="painted boy seated and surrounded by technological decives">
             <figcaption>Image by <a href="https://pixabay.com/vectors/technology-digital-programming-8490011/">Pixabay</a></figcaption>
         </figure>
-    </div>
-    <div class="right-section">
-    <section id="Goal">
-        <div class="container1">
+
+        <div class="container">
             <p>
               The primary goal of creating this website is to apply the skills and concepts we've learned in class.
               This project goes beyond just earning grades, it offers us the opportunity to gain valuable hands on-experience 
@@ -73,16 +61,14 @@
                 <li>Conducting a Website Audit</li>
                 <li>HTML and its Semantics</li>
                 <li>CSS N/A</li>
-                <li>Creating a portfolio</li>
+                <li>Crating a portfolio</li>
             </ul>
        </div>
     </section>
-    </div>
-    </div>
      <!--Button to direct users to another webpage-->
     <aside>
         <h3><b><i>Click the link below to access more of my content!</i></b></h3><br>
-        <a href="/LearnMore/" class="Button"> Learn More</a>
+        <a href="LearnMore/index.html" class="Button"> Learn More</a>
     </aside>
  </body>
 </html>
