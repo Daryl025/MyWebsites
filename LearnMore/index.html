@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LearnMore</title>
+    <link href="More.css" rel="stylesheet" >
     <style>
         table, th, td{
             border-collapse: collapse;
             width: 50%;
             border: 2px solid black;
             padding: 8px;
+            border-style: dashed;
+            border-width: 2px;
         }
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Joan&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--Header to contain the title of the webpage-->
-    <!--Home button to navigate between this page and the home page-->
-    <header>
-        <a href="/Home/" class="Button"> Home</a>
-        <h1>More About this Website.</h1>
-    </header>
-    <!--section encompassing a table, and a paragraph-->
-    <section>
+ 
+        <!--Header to contain the title of the webpage-->
+        <!--Home button to navigate between this page and the home page-->
+        <header>
+        <h1 class="jersey-20-regular"> <a href="../Home/index.html" class="Button"> Home</a>More About this Website.</h1>
+        </header>
+        <!--section encompassing a table, and a paragraph-->
+        <section id="grid">
       <p>
-        Below is a list of software I use for either Web Development or Design and some languages too.
+        <caption>List of software I use for either Web Development or Design and some languages too.</caption> 
       </p>
-    <table>
+      <table>
         <thead>
         <tr>
             <th>Web Development</th> 
@@ -57,19 +63,20 @@
             </tr>
 
         </tbody>
-    </table>
-    <!--Ordered list-->
-    <h2>Here is are some languages I learned progressively.</h2>
-    <ol>
+        
+      </table>
+      <!--Ordered list-->
+      <h2>Here are some languages I learned progressively.</h2>
+     <ol>
         <li>HTML</li>
         <li>CSS</li>
         <li>php</li>
         <li>JavaScript</li>     
-    </ol>
-    </section>
+     </ol>
+     </section>
      
-    <section>
-     <h3><i>How CSS and HTML are complementary to each other in my opinion.</i></h3>
+     <section>
+     <h3>How CSS and HTML are complementary to each other in my opinion.</h3>
      <ul>
      <li><Strong>HTML:</Strong> provide the structure and content of the web page. It defines elements such as headings, images, lists, paragraphs, tables, etc.</li>
      <li><Strong>CSS:</Strong> It handles the presentation layout and styles the HTML element. It controls aspects such as fonts, colors, spacing, positioning, etc.</li>
@@ -79,15 +86,17 @@
         In summary, HTML and CSS work together to create web pages that are not only functional but also visually appealing. 
         HTML does the structuring while CSS styles and presents it.
      </p>
-    </section>
-    <!--Textarea for feedback-->
-    <label for="Question">Questin?</label>
-    <textarea  id="Question" placeholder="Ask any question regarding any web development tools mentioned in the table above."></textarea>
+     </section>
+     <!--Textarea for feedback-->
+     <label for="Question">Question?</label>
+     <textarea  id="Question" placeholder="Ask any question regarding any web development tools mentioned in the table above."></textarea>
     
-    <!--footer-->
-    <footer>
+     <!--footer-->
+     <footer>
+       <em>Contact Us: 403 (000)-1111 </em> 
         &copy; 2024 AD
-    </footer>
-
+        <strong>Email:daryltchouala8@gmail.com</strong> 
+     </footer>
+ 
 </body>
 </html>
